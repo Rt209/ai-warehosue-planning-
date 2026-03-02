@@ -1,5 +1,16 @@
 from dataclasses import dataclass
+from enum import Enum, auto
 from typing import Union
+
+
+class Orientation(Enum):
+    """Standard 3D orientations for box-shaped items."""
+    DEFAULT = auto()      # (L, W, H)
+    SIDE_LONG = auto()   # (W, L, H)
+    UPRIGHT = auto()     # (H, W, L)
+    UPRIGHT_LONG = auto() # (H, L, W)
+    SIDE_FLAT = auto()   # (L, H, W)
+    SIDE_UP = auto()     # (W, H, L)
 
 
 @dataclass(frozen=True)
