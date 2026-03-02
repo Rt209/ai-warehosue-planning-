@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from typing import Dict, Any, Optional, List
-from .common import Vec3, Orientation
+from models.common import Vec3, Orientation
 
 
 @dataclass

@@ -1,7 +1,7 @@
 from typing import List, Tuple, Optional
-from ..models.common import Vec3, Orientation
-from ..models.item import Item
-from ..models.warehouse import Warehouse
+from models.common import Vec3, Orientation
+from models.item import Item
+from models.warehouse import Warehouse
 
 
 class PackingEngine:

@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import List, Optional
-from .common import Box3
-from .item import Item
+from models.common import Box3
+from models.item import Item
 
 
 @dataclass

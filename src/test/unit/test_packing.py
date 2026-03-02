@@ -1,8 +1,8 @@
 import unittest
-from src.main.python.models.common import Vec3, Box3, Orientation
-from src.main.python.models.item import Item
-from src.main.python.models.warehouse import Warehouse
-from src.main.python.services.packing_engine import PackingEngine
+from models.common import Vec3, Box3, Orientation
+from models.item import Item
+from models.warehouse import Warehouse
+from services.packing_engine import PackingEngine
 
 
 class TestPackingEngine(unittest.TestCase):
